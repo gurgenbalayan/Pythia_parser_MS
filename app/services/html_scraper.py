@@ -1,11 +1,9 @@
 import json
-from idlelib import query
 import aiohttp
 from bs4 import BeautifulSoup
 from utils.logger import setup_logger
 import os
 from dotenv import load_dotenv
-from typing import List, Dict
 load_dotenv()
 
 STATE = os.getenv("STATE")
